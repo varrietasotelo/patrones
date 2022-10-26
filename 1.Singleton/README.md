@@ -9,7 +9,7 @@ El ejemplo del video es el siguiente:
 En el lenguaje Java en una clase se crea un objeto de ambito estatico y privado (para evitar crear otras instancias), las diferencias entre Metodos de instancia y Metodos de clase son: 
     
     Metodos de instancia: es el ambito no estatico, solo puede ser accedido por una instancia u objeto de clase. 
-    Metodos de clase: metodo static: solo puede referenciar varibales estaticas y puede ser accedido a traves de la definicion de la clase, un ejemplo es el metodo main,     porque al iniciar el programa no hay objetos. 
+    Metodos de clase: metodo static: solo puede referenciar varibales estaticas y puede ser accedido a traves de la definicion de la clase, un ejemplo es el metodo main, porque al iniciar el programa no hay objetos. 
     
 Posteriormente se crea un constructor de ambito privado, para que cuando se quiera crear un objeto no se podra utilizar el operador new, entonce se debe crear un metodo de tipo estatico de tipo get el cual si la instancia es null se va a instanciar, si se llama de nuevo pero ya esta instanciado, simplemente devolveria la instancia ya realizada. 
 
