@@ -11,5 +11,7 @@ explicacion del diagrama:
   - clase fabrica
   - clase de prueba para ejecutar la aplicacion - FactoryPatternDemo
   - en este ejemplo no se va a instanciar directamente el objeto, sino, sera a traves de la fabrica. 
+  - las implementaciones heredan los atributos de shape. 
 
 El objetivo de este tipo de patron es devolver instancias de una clase especifica segun un identificador. 
+
