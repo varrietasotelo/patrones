@@ -1,7 +1,7 @@
 Fabrica o patron factoria
 
 diagrama
-![Image text](https://github.com/varrietasotelo/patrones/blob/main/Imagenes/Instancia_Singleton.PNG) 
+![Image text](https://github.com/varrietasotelo/patrones/blob/main/Imagenes/fabrica.PNG) 
 
 explicacion del diagrama: 
   interfaz shape 
