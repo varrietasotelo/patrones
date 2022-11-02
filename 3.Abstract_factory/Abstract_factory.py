@@ -31,7 +31,7 @@ class Cat:
         return "Gato"
 
 
-# Factory classes
+# Clases
 class DogFactory:
     def get_pet(self):
         return Dog()
@@ -50,7 +50,7 @@ class CatFactory:
 def get_factory():
     return random.choice([DogFactory, CatFactory])()
 
-# Test de lsa fabrica 
+# Test de la fabrica
 shop = PetShop()
 for i in range(2):
     shop.pet_factory = get_factory()
