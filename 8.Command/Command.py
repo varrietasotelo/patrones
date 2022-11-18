@@ -20,14 +20,14 @@ class MoveFileCommand(object):
 if __name__ == "__main__":
     command_stack = []
 
-    # commands are just pushed into the command stack
+    # los comandos se añaden al command_stack
     command_stack.append(MoveFileCommand('foo.txt', 'bar.txt'))
     command_stack.append(MoveFileCommand('bar.txt', 'baz.txt'))
 
-    # they can be executed later on
+    # pueden ser ejecutados mediante
     for cmd in command_stack:
         cmd.execute()
 
-    # and can also be undone at will
+    # se eliminan mediante
     for cmd in reversed(command_stack):
         cmd.undo()
